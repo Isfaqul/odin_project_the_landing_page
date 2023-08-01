@@ -2,6 +2,7 @@
   --dark-blue: #1f2937;
   --quote-section-bg: #e5e7eb;
   --button-color: #3882f6;
+  --white: #fff;
 }
 
 *,
@@ -15,4 +16,18 @@
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header,
+footer {
+  background-color: var(--dark-blue);
+}
+
+.container {
+  width: 70vw;
+  margin-inline: auto;
 }
