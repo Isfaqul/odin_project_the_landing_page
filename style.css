@@ -1,0 +1,31 @@
+:root {
+  --dark-blue: #1f2937;
+  --quote-section-bg: #e5e7eb;
+  --button-color: #3882f6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  width: 75vw;
+  margin-inline: auto;
+}
+
+.dark-blue-bg {
+  background-color: var(--dark-blue);
+}
+
+.hero-part-3 {
+  background-color: var(--quote-section-bg);
+}
