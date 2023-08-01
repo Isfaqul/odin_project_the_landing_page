@@ -114,7 +114,7 @@ header {
 /* Main Two */
 
 .hero-two {
-  padding: 3rem 0 3rem 0;
+  padding: 6rem 0 6rem 0;
   text-align: center;
 }
 
@@ -164,4 +164,31 @@ header {
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--dark-blue);
+}
+
+/* Hero Section Three */
+
+.hero-three {
+  padding: 8rem 0 8rem 0;
+  background-color: var(--quote-section-bg);
+}
+
+.quote {
+  display: block;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.container-quote.container {
+  width: 50%;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
