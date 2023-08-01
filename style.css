@@ -59,6 +59,7 @@ header {
   font-size: 1.6rem;
   display: flex;
   gap: 2.2em;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Hero Section */
