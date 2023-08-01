@@ -226,3 +226,19 @@ header {
   background-color: transparent;
   border: 2px solid var(--white);
 }
+
+/* Footer Section Styles */
+
+footer {
+  padding: 3rem 0 3rem 0;
+}
+
+.footer-container {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
