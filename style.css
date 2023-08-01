@@ -28,12 +28,13 @@ a {
 }
 
 header,
-footer {
+footer,
+.hero-container {
   background-color: var(--dark-blue);
 }
 
 .container {
-  width: 70vw;
+  width: 65vw;
   margin-inline: auto;
 }
 
@@ -61,3 +62,47 @@ header {
 }
 
 /* Hero Section */
+
+.hero-one {
+  padding: 3rem 0 6rem 0;
+}
+
+.hero-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  color: var(--white);
+  line-height: 80%;
+  margin-bottom: 1rem;
+}
+
+.hero-sub-title {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+}
+
+.sign-up-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.sign-up-button.hero-sign-up-button {
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+}
+
+/* Main Two */
+
+.hero-two {
+}
